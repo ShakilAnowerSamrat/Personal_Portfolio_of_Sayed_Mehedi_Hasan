@@ -1,3 +1,5 @@
+import profileImage from "../../assets/profile.png";
+
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center bg-gradient-to-br from-gray-50 to-gray-100 py-20">
@@ -6,7 +8,7 @@ const Hero = () => {
           <div className="w-full md:w-1/2 flex justify-center md:justify-end mb-8 md:mb-0">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
               <img 
-                src="/images/profile.png" 
+                src={profileImage} 
                 alt="Profile of Sayed Mehedi Hasan" 
                 className="w-full h-full object-cover" 
               />
