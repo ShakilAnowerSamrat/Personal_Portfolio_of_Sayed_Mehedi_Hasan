@@ -6,7 +6,7 @@ const Hero = () => {
           <div className="w-full md:w-1/2 flex justify-center md:justify-end mb-8 md:mb-0">
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
               <img 
-                src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMCIgaGVpZ2h0PSIwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjwvc3ZnPg==" 
+                src="/images/profile.png" 
                 alt="Profile of Sayed Mehedi Hasan" 
                 className="w-full h-full object-cover" 
               />
