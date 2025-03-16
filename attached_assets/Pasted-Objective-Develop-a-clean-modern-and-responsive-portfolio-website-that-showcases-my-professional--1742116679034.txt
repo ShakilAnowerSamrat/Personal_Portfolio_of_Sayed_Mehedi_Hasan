@@ -1,0 +1,63 @@
+Objective:
+Develop a clean, modern, and responsive portfolio website that showcases my professional background, skills, and accomplishments. The site should be optimized for job seeking and personal branding, effectively communicating my career journey and expertise.
+
+Key Requirements:
+
+Design & Theme:
+
+Use a clean, minimalistic layout with plenty of white space.
+Ensure a responsive design that works well on desktops, tablets, and mobile devices.
+Incorporate modern typography and a consistent color scheme that reflects professionalism.
+Prioritize user-friendly navigation with clearly labeled sections.
+Core Sections & Content:
+
+Home/Landing Page:
+
+Include a professional headshot.
+Feature a concise tagline that encapsulates my professional identity.
+Provide a brief introductory statement with a call-to-action (e.g., “View My Work” or “Learn More About Me”).
+About Me:
+
+Share my personal story, career objective, and what drives me professionally.
+Highlight key personal details such as my background, core values, and interests.
+Resume/CV:
+
+Present a summary of my professional experience, education, and skills.
+Educational Qualifications:
+Display this section in a table format with columns for:
+Exam (e.g., SSC, HSC, B.B.A (Hon’s), M.B.A)
+Passing Year
+Group/Subject
+GPA/Division
+Board/University
+(Use the information from my CV for accuracy.)
+Professional Experience:
+List my roles including:
+Lecturer at Kushtia Hazi Abul Hossain Institute & Technology (KHABIT)
+Management Trainee at Pran’s Marketing Research and Survey Department
+Sales Representative at PRAN-RFL Group
+Lecturer at Swarupdaha Model Madrasa
+Include durations and key responsibilities or achievements.
+Skills & Competencies:
+Highlight technical skills (MS Office, hardware, networking) and language proficiencies (Bengali and English).
+Portfolio/Work Samples:
+
+(If applicable) Showcase projects, case studies, or significant work samples that highlight your teaching, management, or related skills.
+Hobbies & Interests:
+
+Include a section that outlines your personal interests such as travelling, reading, sports, gardening, writing, photography, and your involvement in religious practices.
+References:
+
+Provide details of references (e.g., Dr. Mohammad Main Uddin and Dr. Md. Sayaduzzaman) with their titles, affiliations, and contact information.
+Contact:
+
+Include a dedicated contact page or section with a form.
+Provide your email address and links to any professional social media profiles (e.g., LinkedIn).
+Additional Considerations:
+
+Ensure the website is SEO-friendly by incorporating relevant keywords related to my skills and background.
+Follow accessibility guidelines (e.g., proper color contrast, alt text for images).
+Maintain a consistent design across all sections.
+Allow easy updating of content for future projects or changes in professional experience.
+Outcome:
+A fully functional, professionally designed portfolio website that serves as a comprehensive and engaging representation of my career and achievements, making it easier for potential employers to learn about me and my work.
