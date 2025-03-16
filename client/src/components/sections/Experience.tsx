@@ -9,7 +9,7 @@ const Experience = () => {
     },
     {
       title: "Management Trainee – Accounts",
-      company: "Marketing Research and Survey Department, Pran",
+      company: "Marketing Research and Survey Department, PRAN-RFL Group",
       duration: "1 year",
       description: "Assisted in financial reporting, budget preparation, and accounting operations. Participated in marketing research projects and data analysis.",
       align: "left" // will be right on mobile
@@ -57,7 +57,8 @@ const Experience = () => {
           ))}
         </div>
       </div>
-      <style jsx>{`
+      <style dangerouslySetInnerHTML={{
+        __html: `
         .timeline-container::before {
           content: '';
           position: absolute;
@@ -84,7 +85,8 @@ const Experience = () => {
             transform: translateX(-50%);
           }
         }
-      `}</style>
+        `
+      }} />
     </section>
   );
 };
