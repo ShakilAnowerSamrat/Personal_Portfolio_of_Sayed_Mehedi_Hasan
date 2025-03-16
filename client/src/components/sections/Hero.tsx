@@ -1,4 +1,5 @@
 import profileImage from "../../assets/profile.png";
+// Also available as /profile-image.png for direct access
 
 const Hero = () => {
   return (
