@@ -1,5 +1,6 @@
 import profileImage from "../../assets/profile.png";
 // Also available as /profile-image.png for direct access
+import ResumeDownload from "./ResumeDownload";
 
 const Hero = () => {
   return (
@@ -32,6 +33,7 @@ const Hero = () => {
               <a href="#contact" className="px-6 py-3 bg-white text-primary border border-primary rounded-md shadow hover:bg-gray-50 transition font-medium">
                 Contact Me
               </a>
+              <ResumeDownload />
             </div>
           </div>
         </div>
