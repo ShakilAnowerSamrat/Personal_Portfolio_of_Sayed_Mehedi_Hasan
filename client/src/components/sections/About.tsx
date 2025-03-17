@@ -4,7 +4,7 @@ const About = () => {
     { icon: "fas fa-flag", title: "Nationality", value: "Bangladeshi" },
     { icon: "fas fa-user", title: "Marital Status", value: "Unmarried" },
     { icon: "fas fa-language", title: "Language Proficiency", value: "Fluent in Bengali and English (speaking, writing, reading, listening)" },
-    { icon: "fas fa-id-card", title: "NID", value: "3265786578" },
+    { icon: "fas fa-id-card", title: "NID", value: "XXXX-XXXX-XXXX" },
     { icon: "fas fa-map-marker-alt", title: "Address", value: "Village – Swarupdaha, Post – Poradaha, PS – Mirpur, District – Kushtia, Post Code: 7031" }
   ];
 
