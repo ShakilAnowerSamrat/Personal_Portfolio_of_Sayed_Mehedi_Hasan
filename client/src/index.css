@@ -29,6 +29,14 @@
 }
 
 @layer components {
+  .dark-mode-toggle {
+    @apply w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300;
+    @apply bg-gray-200 hover:bg-gray-300 dark:bg-gray-700 dark:hover:bg-gray-600;
+  }
+
+  .dark-mode-toggle i {
+    @apply text-gray-700 dark:text-yellow-300;
+  }
   .text-gradient {
     @apply bg-clip-text text-transparent bg-gradient-to-r from-gray-700 via-primary to-gray-800;
   }
