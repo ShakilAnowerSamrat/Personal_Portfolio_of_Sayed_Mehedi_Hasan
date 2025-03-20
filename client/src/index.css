@@ -8,12 +8,23 @@
   }
 
   body {
-    @apply font-sans antialiased bg-background text-foreground;
+    @apply font-sans antialiased bg-background text-foreground transition-colors duration-200;
     background-color: #f8f9fa;
     background-image: 
       radial-gradient(at 100% 0%, rgba(55, 65, 81, 0.03) 0px, transparent 50%),
       radial-gradient(at 0% 0%, rgba(75, 85, 99, 0.03) 0px, transparent 50%);
     background-attachment: fixed;
+  }
+
+  .dark {
+    color-scheme: dark;
+  }
+
+  .dark body {
+    background-color: #111827;
+    background-image: 
+      radial-gradient(at 100% 0%, rgba(255, 255, 255, 0.03) 0px, transparent 50%),
+      radial-gradient(at 0% 0%, rgba(255, 255, 255, 0.03) 0px, transparent 50%);
   }
 }
 
