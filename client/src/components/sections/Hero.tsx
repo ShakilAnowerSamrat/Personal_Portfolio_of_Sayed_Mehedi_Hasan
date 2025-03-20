@@ -6,10 +6,12 @@ import { motion } from "framer-motion";
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center py-20 relative overflow-hidden">
-      {/* Background elements */}
+      {/* Background pattern */}
+      <div className="absolute inset-0 -z-10 bg-pattern opacity-20"></div>
       <div className="absolute inset-0 -z-10">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-blue-500/10 rounded-full filter blur-3xl"></div>
-        <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-300/10 rounded-full filter blur-3xl"></div>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gray-200/20 rounded-full filter blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-gray-300/20 rounded-full filter blur-3xl"></div>
+        <div className="absolute top-1/3 left-1/3 w-72 h-72 bg-primary/5 rounded-full filter blur-3xl"></div>
       </div>
       
       <div className="container mx-auto px-4 md:px-6 relative z-10">
@@ -21,7 +23,7 @@ const Hero = () => {
             transition={{ duration: 0.6 }}
           >
             <motion.div 
-              className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white glow-border float-animation"
+              className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white/90 shadow-xl glow-border float-animation"
               whileHover={{ scale: 1.05, rotate: 5 }}
               transition={{ type: "spring", stiffness: 300 }}
             >
@@ -49,7 +51,7 @@ const Hero = () => {
             </motion.h1>
             
             <motion.p 
-              className="text-xl md:text-2xl font-medium font-['Inter'] mb-6 text-blue-500"
+              className="text-xl md:text-2xl font-medium font-['Inter'] mb-6 text-gradient-primary"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}

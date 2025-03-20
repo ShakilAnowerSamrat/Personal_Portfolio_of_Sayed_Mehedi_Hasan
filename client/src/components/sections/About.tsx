@@ -32,10 +32,11 @@ const About = () => {
 
   return (
     <section id="about" className="py-20 relative overflow-hidden">
-      {/* Background elements */}
+      {/* Background pattern */}
+      <div className="absolute inset-0 -z-10 bg-pattern opacity-30"></div>
       <div className="absolute inset-0 -z-10">
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-500/5 rounded-full filter blur-3xl"></div>
-        <div className="absolute top-1/3 left-0 w-72 h-72 bg-blue-400/5 rounded-full filter blur-3xl"></div>
+        <div className="absolute bottom-0 right-0 w-96 h-96 bg-gray-200/30 rounded-full filter blur-3xl"></div>
+        <div className="absolute top-1/3 left-0 w-72 h-72 bg-gray-300/20 rounded-full filter blur-3xl"></div>
       </div>
       
       <div className="container mx-auto px-4 md:px-6">
@@ -57,7 +58,7 @@ const About = () => {
           </motion.h2>
           
           <motion.div 
-            className="h-1 bg-gradient-to-r from-blue-400 to-blue-600 w-20 mx-auto mt-4 mb-8 rounded-full"
+            className="section-divider"
             initial={{ width: 0 }}
             whileInView={{ width: 80 }}
             viewport={{ once: true }}
@@ -125,7 +126,7 @@ const About = () => {
                 variants={itemVariants}
                 whileHover={{ scale: 1.03, backgroundColor: "rgba(255, 255, 255, 0.8)" }}
               >
-                <div className="w-10 h-10 rounded-full bg-blue-100 flex items-center justify-center text-blue-500 mr-3">
+                <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-primary mr-3">
                   <i className={info.icon}></i>
                 </div>
                 <div>
